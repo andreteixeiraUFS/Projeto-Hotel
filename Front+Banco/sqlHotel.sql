@@ -1,0 +1,28 @@
+CREATE DATABASE Hotel;
+GO
+
+USE Hotel;
+GO
+
+CREATE TABLE Clientes (
+    Id INT IDENTITY PRIMARY KEY,
+    Nome NVARCHAR(100) NOT NULL,
+    Email NVARCHAR(100) NOT NULL,
+    Sexo VARCHAR(1) NOT NULL
+);
+GO
+
+CREATE TABLE Reservas (
+    Id INT IDENTITY PRIMARY KEY,
+    DataChegada NVARCHAR(100) NOT NULL,
+    Noites INT NOT NULL,
+    Hospedes INT NOT NULL,
+    Mensagem VARCHAR(200) NOT NULL,
+
+    IdCliente INT NOT NULL,
+
+    CONSTRAINT FK_Reserva_Cliente
+        FOREIGN KEY (IdCliente)
+        REFERENCES Clientes(Id)
+);
+GO

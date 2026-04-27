@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bem vindo ao site do Hotel XPTO!</h1>
+    <div>
+        <h2>Cadastro de Cliente</h2>
+        <form id="cadastroCliente">
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome">
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+            <label for="sexo">Sexo: </label>
+            Masculino <input type="radio" name="sexo" id="sexo" value="m">
+            Feminino <input type="radio" name="sexo" id="sexo" value="f">
+            <input type="submit" value="Cadastrar">
+        </form>
+        <div id="respostaCliente"></div>
+    </div>
+<hr>
+    <div>
+        <h2>Fazer Reserva</h2>
+        <form id="reservar">
+            <label for="IdCliente">Insira seu ID de cliente: </label> <!--O correto é essa informação estar salva num cookie após ele fazer login!-->
+            <input type="number" name="IdCliente" id="IdCliente">
+            <label for="dataChegada">Data Chegada: </label>
+            <input type="date" name="dataChegada" id="dataChegada">
+            <label for="noites">Quantas diárias? </label>
+            <input type="number" name="noites" id="noites" min="1">
+            <label for="hospedes">Quantos hospédes? </label>
+            <input type="number" name="hospedes" id="hospedes" min="1">
+            <label for="mensagem">Alguma mensagem para o hotel? </label>
+            <input type="text" name="mensagem" id="mensagem">
+            <input type="submit" value="Reservar">
+        </form>
+        <div id="respostaReserva"></div>
+    </div>
+    <hr>
+    <div>
+        <h2>Consultar Minhas Reservas</h2>
+        <form id="consultarReservas">
+            <label for="IdClienteConsulta">Insira seu ID de cliente para consultar: </label> <!--O correto é essa informação estar salva num cookie após ele fazer login!-->
+            <input type="number" name="IdClienteConsulta" id="IdClienteConsulta">          
+            <input type="submit" value="Consultar">
+        </form>
+        <div id="respostaConsulta"></div>
+    </div>
+   
+    <script src="scriptCliente.js"></script>
+    <script src="scriptReserva.js"></script>
+</body>
+</html>
