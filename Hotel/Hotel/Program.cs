@@ -1,5 +1,5 @@
-using Microsoft.EntityFrameworkCore;
 using Hotel.Data;
+using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDistributedMemoryCache(); // Necessário para armazenar a sessão em memória

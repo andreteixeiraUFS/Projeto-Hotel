@@ -19,49 +19,45 @@ namespace Hotel.Controllers
 
 
 
-  
         [HttpGet("reservasCliente")]
-        public IActionResult ReservasCliente()
+        public IActionResult ReservasCliente(int identCliente)
         {
-            var usuarioLogado = HttpContext.Session.GetString("IdLogado");
-            if (usuarioLogado == null)
+            var sessaoUsuario = HttpContext.Session.GetString("IdLogado");
+            if (sessaoUsuario == null)
             {
-                return Unauthorized("Faça login antes!");
+                return Unauthorized("Faça login Antes");
             }
-            var idUsuarioLogado = Request.Cookies["IdLogado"];
-            
-            if (idUsuarioLogado != null)
+
+            var idCliente = Request.Cookies["IdLogado"];
+            if (idCliente != null)
             {
-                Console.WriteLine("TESTE: " + int.Parse(idUsuarioLogado));
+
                 var resultado = from c in _context.Clientes
                                 join r in _context.Reservas
                                 on c.Id equals r.IdCliente
-                                where c.Id == int.Parse(idUsuarioLogado)
+                                where c.Id == int.Parse(idCliente)
                                 select new
-                                {
-                                    Cliente = c.Nome,
-                                    c.Email,
-                                    Reservas = r.Id, r.DataChegada,
-                                    r.Noites,
-                                    r.Hospedes, r.Mensagem
-                                };
+                            {
+                                Cliente = c.Nome, c.Email,
+                                Reservas = r.Id, r.DataChegada, r.Noites, r.Hospedes, r.Mensagem
+                            };
                 return Ok(resultado.ToList());
             }
-            return Unauthorized("Faça login antes!");
+            return Unauthorized("Faça login Antes");
         }
-
 
         [HttpPost]
         public IActionResult CadastraReserva(Reserva reserva)
         {
-            var usuarioLogado = HttpContext.Session.GetString("IdLogado");
-            if (usuarioLogado == null)
+
+            var sessaoUsuario = HttpContext.Session.GetString("IdLogado");
+            if (sessaoUsuario == null)
             {
-                return Unauthorized("Faça login antes!");
+                return Unauthorized("Faça login Antes");
             }
-            var idUsuarioLogado = Request.Cookies["IdLogado"];
-            if (idUsuarioLogado != null)
-                reserva.IdCliente = int.Parse(idUsuarioLogado);
+            var idLogado = Request.Cookies["IdLogado"];
+            if (idLogado != null)
+                reserva.IdCliente = int.Parse(idLogado);
 
             _context.Add(reserva);
             _context.SaveChanges();
@@ -71,10 +67,10 @@ namespace Hotel.Controllers
         [HttpPut("{id}")]
         public IActionResult AtualizaReserva(int id, Reserva reserva)
         {
-            var usuarioLogado = HttpContext.Session.GetString("IdLogado");
-            if (usuarioLogado == null)
+            var sessaoUsuario = HttpContext.Session.GetString("IdLogado");
+            if (sessaoUsuario == null)
             {
-                return Unauthorized("Faça login antes!");
+                return Unauthorized("Faça login Antes");
             }
 
             var reservaDoBanco = _context.Reservas.Find(id);
@@ -86,7 +82,7 @@ namespace Hotel.Controllers
             reservaDoBanco.Noites = reserva.Noites;
             reservaDoBanco.Hospedes = reserva.Hospedes;
             reservaDoBanco.Mensagem = reserva.Mensagem;
-           // reservaDoBanco.IdCliente = reserva.IdCliente;
+          
             _context.SaveChanges();
             return Ok("Atualizado");
         }
@@ -94,11 +90,12 @@ namespace Hotel.Controllers
         [HttpDelete("{id}")]
         public IActionResult DeletaReserva(int id)
         {
-            var usuarioLogado = HttpContext.Session.GetString("IdLogado");
-            if (usuarioLogado == null)
+            var sessaoUsuario = HttpContext.Session.GetString("IdLogado");
+            if (sessaoUsuario == null)
             {
-                return Unauthorized("Faça login antes!");
+                return Unauthorized("Faça login Antes");
             }
+
             var reservaDoBanco = _context.Reservas.Find(id);
             if (reservaDoBanco == null)
             {

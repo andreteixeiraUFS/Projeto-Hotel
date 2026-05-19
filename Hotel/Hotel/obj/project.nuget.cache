@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cdpaMAIx1g0=",
+  "dgSpecHash": "9pSfKDeVVUcvYFkgv7aRWgF1GxfZ1qCv1eYwV9ts6aDmvGMvSVz6NNmy+yyvHRJAYSypTxt1SVfEsUz/jpdw/w==",
   "success": true,
-  "projectFilePath": "E:\\Andre\\Projeto Hotel\\Hotel\\Hotel\\Hotel.csproj",
+  "projectFilePath": "C:\\Users\\professor.cetafaju\\source\\repos\\Projeto-Hotel\\Hotel\\Hotel\\Hotel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\professor.cetafaju\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\professor.cetafaju\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -1,1 +1,11 @@
-{"Version":1,"Hash":"1D0CEWQOBoOUj7kvZh6qgO6t2daAQfcB1tDeXMazm7Y=","Source":"Hotel","BasePath":"_content/Hotel","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "wLCO9yo/b3J8yhH27Difcwjkf/b+hUZ3bcTFuMRflQ0=",
+  "Source": "Hotel",
+  "BasePath": "_content/Hotel",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
