@@ -19,36 +19,50 @@ namespace Hotel.Controllers
 
 
 
-        [HttpGet("{id}")]
-        public IActionResult RetornaReserva(int id)
+  
+        [HttpGet("reservasCliente")]
+        public IActionResult ReservasCliente()
         {
-            var reservas = _context.Reservas.Find(id);
-            if (reservas == null)
+            var usuarioLogado = HttpContext.Session.GetString("IdLogado");
+            if (usuarioLogado == null)
             {
-                return NotFound("Reserva não encontrada");
+                return Unauthorized("Faça login antes!");
             }
-            return Ok(reservas);
-        }
-
-        [HttpGet("reservasCliente/{identCliente}")]
-        public IActionResult ReservasCliente(int identCliente)
-        {
-            var resultado = from c in _context.Clientes
-                            join r in _context.Reservas
-                            on c.Id equals r.IdCliente 
-                            where identCliente == c.Id
-                            select new
-                            {
-                                Cliente = c.Nome, c.Email,
-                                Reservas = r.DataChegada, r.Noites, r.Hospedes
-                            };
-            return Ok(resultado.ToList());
+            var idUsuarioLogado = Request.Cookies["IdLogado"];
+            
+            if (idUsuarioLogado != null)
+            {
+                Console.WriteLine("TESTE: " + int.Parse(idUsuarioLogado));
+                var resultado = from c in _context.Clientes
+                                join r in _context.Reservas
+                                on c.Id equals r.IdCliente
+                                where c.Id == int.Parse(idUsuarioLogado)
+                                select new
+                                {
+                                    Cliente = c.Nome,
+                                    c.Email,
+                                    Reservas = r.Id, r.DataChegada,
+                                    r.Noites,
+                                    r.Hospedes, r.Mensagem
+                                };
+                return Ok(resultado.ToList());
+            }
+            return Unauthorized("Faça login antes!");
         }
 
 
         [HttpPost]
         public IActionResult CadastraReserva(Reserva reserva)
         {
+            var usuarioLogado = HttpContext.Session.GetString("IdLogado");
+            if (usuarioLogado == null)
+            {
+                return Unauthorized("Faça login antes!");
+            }
+            var idUsuarioLogado = Request.Cookies["IdLogado"];
+            if (idUsuarioLogado != null)
+                reserva.IdCliente = int.Parse(idUsuarioLogado);
+
             _context.Add(reserva);
             _context.SaveChanges();
             return Created("", reserva);
@@ -57,6 +71,12 @@ namespace Hotel.Controllers
         [HttpPut("{id}")]
         public IActionResult AtualizaReserva(int id, Reserva reserva)
         {
+            var usuarioLogado = HttpContext.Session.GetString("IdLogado");
+            if (usuarioLogado == null)
+            {
+                return Unauthorized("Faça login antes!");
+            }
+
             var reservaDoBanco = _context.Reservas.Find(id);
             if (reservaDoBanco == null)
             {
@@ -66,7 +86,7 @@ namespace Hotel.Controllers
             reservaDoBanco.Noites = reserva.Noites;
             reservaDoBanco.Hospedes = reserva.Hospedes;
             reservaDoBanco.Mensagem = reserva.Mensagem;
-            reservaDoBanco.IdCliente = reserva.IdCliente;
+           // reservaDoBanco.IdCliente = reserva.IdCliente;
             _context.SaveChanges();
             return Ok("Atualizado");
         }
@@ -74,6 +94,11 @@ namespace Hotel.Controllers
         [HttpDelete("{id}")]
         public IActionResult DeletaReserva(int id)
         {
+            var usuarioLogado = HttpContext.Session.GetString("IdLogado");
+            if (usuarioLogado == null)
+            {
+                return Unauthorized("Faça login antes!");
+            }
             var reservaDoBanco = _context.Reservas.Find(id);
             if (reservaDoBanco == null)
             {

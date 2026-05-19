@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2>Fazer Reserva</h2>
+        <form id="reservar">
+            <label for="dataChegada">Data Chegada: </label>
+            <input type="date" name="dataChegada" id="dataChegada">
+            <label for="noites">Quantas diárias? </label>
+            <input type="number" name="noites" id="noites" min="1">
+            <label for="hospedes">Quantos hospédes? </label>
+            <input type="number" name="hospedes" id="hospedes" min="1">
+            <label for="mensagem">Alguma mensagem para o hotel? </label>
+            <input type="text" name="mensagem" id="mensagem">
+            <input type="submit" value="Reservar">
+        </form>
+        <div id="respostaReserva"></div>
+    </div>
+    <script src="scriptReserva.js"></script>
+</body>
+</html>

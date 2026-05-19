@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\professor.cetafaju\\source\\repos\\Hotel\\Hotel\\Hotel.csproj": {}
+    "E:\\Andre\\Projeto Hotel\\Hotel\\Hotel\\Hotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\professor.cetafaju\\source\\repos\\Hotel\\Hotel\\Hotel.csproj": {
+    "E:\\Andre\\Projeto Hotel\\Hotel\\Hotel\\Hotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\professor.cetafaju\\source\\repos\\Hotel\\Hotel\\Hotel.csproj",
+        "projectUniqueName": "E:\\Andre\\Projeto Hotel\\Hotel\\Hotel\\Hotel.csproj",
         "projectName": "Hotel",
-        "projectPath": "C:\\Users\\professor.cetafaju\\source\\repos\\Hotel\\Hotel\\Hotel.csproj",
+        "projectPath": "E:\\Andre\\Projeto Hotel\\Hotel\\Hotel\\Hotel.csproj",
         "packagesPath": "C:\\Users\\professor.cetafaju\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\professor.cetafaju\\source\\repos\\Hotel\\Hotel\\obj\\",
+        "outputPath": "E:\\Andre\\Projeto Hotel\\Hotel\\Hotel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -87,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -18,15 +18,34 @@ namespace Hotel.Controllers
 
 
 
-        [HttpGet("{id}")]
-        public IActionResult RetornaCliente(int id)
+        [HttpPost("login")]
+        public IActionResult Login(Cliente cliente)
         {
-            var clientes = _context.Clientes.Find(id);
-            if (clientes == null)
-            {
-                return NotFound("Cliente não encontrada");
-            }
-            return Ok(clientes);
+            var clienteBanco = _context.Clientes.Where(c =>
+            c.Email.Equals(cliente.Email) && c.Senha.Equals(cliente.Senha)).ToList();
+            if (clienteBanco.Count == 0)
+                return NotFound("Email ou senha incorretos");
+
+            HttpContext.Session.SetString("IdLogado", clienteBanco[0].Id.ToString());
+
+            Response.Cookies.Append("IdLogado", clienteBanco[0].Id.ToString(),
+                 new CookieOptions
+                 {
+                     HttpOnly = true,
+                     Secure = true,
+                     SameSite = SameSiteMode.None
+                 });
+
+            return Ok("Logado com sucesso");
+        }
+
+        [HttpGet("logout")]
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            Response.Cookies.Delete("IdLogado");
+            Response.Cookies.Delete(".AspNetCore.Session");
+            return Ok("Logout realizado");
         }
 
         [HttpPost]
