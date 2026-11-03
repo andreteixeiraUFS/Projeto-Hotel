@@ -28,7 +28,8 @@ namespace Hotel.Controllers
                 return Unauthorized("Faça login Antes");
             }
 
-            var idCliente = Request.Cookies["IdLogado"];
+            // var idCliente = Request.Cookies["IdLogado"];
+            var idCliente = HttpContext.Session.GetString("IdLogado");
             if (idCliente != null)
             {
 
@@ -55,7 +56,8 @@ namespace Hotel.Controllers
             {
                 return Unauthorized("Faça login Antes");
             }
-            var idLogado = Request.Cookies["IdLogado"];
+            // var idLogado = Request.Cookies["IdLogado"];
+            var idLogado = HttpContext.Session.GetString("IdLogado");
             if (idLogado != null)
                 reserva.IdCliente = int.Parse(idLogado);
 

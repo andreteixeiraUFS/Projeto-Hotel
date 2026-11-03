@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>E:\Andre\Projeto-Hotel\Hotel\Hotel\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2026-11-03T20:11:58.9401214Z;True|2026-11-03T17:04:37.7953385-03:00;True|2026-11-03T17:00:43.5541349-03:00;True|2026-11-03T16:57:54.2268811-03:00;True|2026-11-03T16:55:14.3428315-03:00;True|2026-11-03T16:47:34.1699670-03:00;True|2026-11-03T16:32:55.2777396-03:00;True|2026-11-03T16:24:35.1190840-03:00;True|2026-11-03T15:52:04.0938894-03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

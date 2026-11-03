@@ -4,7 +4,7 @@ myForm.addEventListener('submit', function (event) {
     // 1. Prevenir o recarregamento da página ao submeter form
     event.preventDefault();
 
-    fetch('https://localhost:7262/cliente', {
+    fetch('/cliente', {
         method: 'POST', //Para outros métodos, basta alterar aqui. Obs: Delete remove a parte do body e headers, e no get é conforme todos os exemploes feitos na Unidade interação com API 
         credentials: 'include',
         headers: {
@@ -30,7 +30,7 @@ myFormLogin.addEventListener('submit', function (event) {
     // 1. Prevenir o recarregamento da página ao submeter form
     event.preventDefault();
 
-    fetch('https://localhost:7262/cliente/login', {
+    fetch('/cliente/login', {
         method: 'POST', //Para outros métodos, basta alterar aqui. Obs: Delete remove a parte do body e headers, e no get é conforme todos os exemploes feitos na Unidade interação com API 
         credentials: 'include',
         headers: {
@@ -55,7 +55,7 @@ myFormLogin.addEventListener('submit', function (event) {
 }
 
 function logout() {
-    fetch('https://localhost:7262/cliente/logout', { credentials: 'include' })
+    fetch('/cliente/logout', { credentials: 'include' })
         .then(response => {
             console.log(response);
             window.location.href = "index.html"

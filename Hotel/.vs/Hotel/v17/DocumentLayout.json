@@ -1,37 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\professor.cetafaju\\source\\repos\\Projeto-Hotel\\Hotel\\",
+  "WorkspaceRootPath": "E:\\Andre\\Projeto-Hotel\\Hotel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|c:\\users\\professor.cetafaju\\source\\repos\\projeto-hotel\\hotel\\hotel\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|e:\\andre\\projeto-hotel\\hotel\\hotel\\wwwroot\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|solutionrelative:hotel\\wwwroot\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|e:\\andre\\projeto-hotel\\hotel\\hotel\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|solutionrelative:hotel\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|e:\\andre\\projeto-hotel\\hotel\\hotel\\wwwroot\\cadastrocliente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|solutionrelative:hotel\\wwwroot\\cadastrocliente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|e:\\andre\\projeto-hotel\\hotel\\hotel\\wwwroot\\cadastroreserva.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|solutionrelative:hotel\\wwwroot\\cadastroreserva.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|e:\\andre\\projeto-hotel\\hotel\\hotel\\wwwroot\\scriptreserva.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|solutionrelative:hotel\\wwwroot\\scriptreserva.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|e:\\andre\\projeto-hotel\\hotel\\hotel\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|solutionrelative:hotel\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|c:\\users\\professor.cetafaju\\source\\repos\\projeto-hotel\\hotel\\hotel\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|solutionrelative:hotel\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|c:\\users\\professor.cetafaju\\source\\repos\\projeto-hotel\\hotel\\hotel\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|e:\\andre\\projeto-hotel\\hotel\\hotel\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|solutionrelative:hotel\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|c:\\users\\professor.cetafaju\\source\\repos\\projeto-hotel\\hotel\\hotel\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|solutionrelative:hotel\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|c:\\users\\professor.cetafaju\\source\\repos\\projeto-hotel\\hotel\\hotel\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|solutionrelative:hotel\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|c:\\users\\professor.cetafaju\\source\\repos\\projeto-hotel\\hotel\\hotel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|e:\\andre\\projeto-hotel\\hotel\\hotel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|solutionrelative:hotel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|c:\\users\\professor.cetafaju\\source\\repos\\projeto-hotel\\hotel\\hotel\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|e:\\andre\\projeto-hotel\\hotel\\hotel\\wwwroot\\scriptcliente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|solutionrelative:hotel\\wwwroot\\scriptcliente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|e:\\andre\\projeto-hotel\\hotel\\hotel\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|solutionrelative:hotel\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|e:\\andre\\projeto-hotel\\hotel\\hotel\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|solutionrelative:hotel\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|e:\\andre\\projeto-hotel\\hotel\\hotel\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|solutionrelative:hotel\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|e:\\andre\\projeto-hotel\\hotel\\hotel\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|solutionrelative:hotel\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|c:\\users\\professor.cetafaju\\source\\repos\\projeto-hotel\\hotel\\hotel\\data\\hotelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|e:\\andre\\projeto-hotel\\hotel\\hotel\\data\\hotelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F8F12E6-1A02-49FF-91E1-F89AA2AC4ADA}|Hotel\\Hotel.csproj|solutionrelative:hotel\\data\\hotelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,64 +66,158 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\professor.cetafaju\\source\\repos\\Projeto-Hotel\\Hotel\\Hotel\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Hotel\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\professor.cetafaju\\source\\repos\\Projeto-Hotel\\Hotel\\Hotel\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Hotel\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-24T19:36:59.43Z"
+              "DocumentIndex": 0,
+              "Title": "login.html",
+              "DocumentMoniker": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\wwwroot\\login.html",
+              "RelativeDocumentMoniker": "Hotel\\wwwroot\\login.html",
+              "ToolTip": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\wwwroot\\login.html",
+              "RelativeToolTip": "Hotel\\wwwroot\\login.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-03T20:07:58.403Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "Hotel\\wwwroot\\index.html",
+              "ToolTip": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\wwwroot\\index.html",
+              "RelativeToolTip": "Hotel\\wwwroot\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-03T20:07:49.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "scriptReserva.js",
+              "DocumentMoniker": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\wwwroot\\scriptReserva.js",
+              "RelativeDocumentMoniker": "Hotel\\wwwroot\\scriptReserva.js",
+              "ToolTip": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\wwwroot\\scriptReserva.js",
+              "RelativeToolTip": "Hotel\\wwwroot\\scriptReserva.js",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAgwEsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-03T18:35:34.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "scriptCliente.js",
+              "DocumentMoniker": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\wwwroot\\scriptCliente.js",
+              "RelativeDocumentMoniker": "Hotel\\wwwroot\\scriptCliente.js",
+              "ToolTip": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\wwwroot\\scriptCliente.js",
+              "RelativeToolTip": "Hotel\\wwwroot\\scriptCliente.js",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-03T18:35:33.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "cadastroReserva.html",
+              "DocumentMoniker": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\wwwroot\\cadastroReserva.html",
+              "RelativeDocumentMoniker": "Hotel\\wwwroot\\cadastroReserva.html",
+              "ToolTip": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\wwwroot\\cadastroReserva.html",
+              "RelativeToolTip": "Hotel\\wwwroot\\cadastroReserva.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-03T18:35:29.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "cadastroCliente.html",
+              "DocumentMoniker": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\wwwroot\\cadastroCliente.html",
+              "RelativeDocumentMoniker": "Hotel\\wwwroot\\cadastroCliente.html",
+              "ToolTip": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\wwwroot\\cadastroCliente.html",
+              "RelativeToolTip": "Hotel\\wwwroot\\cadastroCliente.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-11-03T18:35:29.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ReservaController.cs",
-              "DocumentMoniker": "C:\\Users\\professor.cetafaju\\source\\repos\\Projeto-Hotel\\Hotel\\Hotel\\Controllers\\ReservaController.cs",
+              "DocumentMoniker": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\Controllers\\ReservaController.cs",
               "RelativeDocumentMoniker": "Hotel\\Controllers\\ReservaController.cs",
-              "ToolTip": "C:\\Users\\professor.cetafaju\\source\\repos\\Projeto-Hotel\\Hotel\\Hotel\\Controllers\\ReservaController.cs",
+              "ToolTip": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\Controllers\\ReservaController.cs",
               "RelativeToolTip": "Hotel\\Controllers\\ReservaController.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAA/wAAAAAAAAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowDsAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-24T19:29:21.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\professor.cetafaju\\source\\repos\\Projeto-Hotel\\Hotel\\Hotel\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "Hotel\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\professor.cetafaju\\source\\repos\\Projeto-Hotel\\Hotel\\Hotel\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "Hotel\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAABQAAAAAAAAOOVXgvyQAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T19:29:01.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\professor.cetafaju\\source\\repos\\Projeto-Hotel\\Hotel\\Hotel\\Program.cs",
-              "RelativeDocumentMoniker": "Hotel\\Program.cs",
-              "ToolTip": "C:\\Users\\professor.cetafaju\\source\\repos\\Projeto-Hotel\\Hotel\\Hotel\\Program.cs",
-              "RelativeToolTip": "Hotel\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T19:26:20.606Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\Program.cs",
+              "RelativeDocumentMoniker": "Hotel\\Program.cs",
+              "ToolTip": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\Program.cs",
+              "RelativeToolTip": "Hotel\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T19:26:20.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\appsettings.json",
+              "RelativeDocumentMoniker": "Hotel\\appsettings.json",
+              "ToolTip": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\appsettings.json",
+              "RelativeToolTip": "Hotel\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-24T19:22:33.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Hotel\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Hotel\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-24T19:36:59.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Hotel\\Controllers\\ClienteController.cs",
+              "ToolTip": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Hotel\\Controllers\\ClienteController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAwwCYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T19:29:01.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "HotelContext.cs",
-              "DocumentMoniker": "C:\\Users\\professor.cetafaju\\source\\repos\\Projeto-Hotel\\Hotel\\Hotel\\Data\\HotelContext.cs",
+              "DocumentMoniker": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\Data\\HotelContext.cs",
               "RelativeDocumentMoniker": "Hotel\\Data\\HotelContext.cs",
-              "ToolTip": "C:\\Users\\professor.cetafaju\\source\\repos\\Projeto-Hotel\\Hotel\\Hotel\\Data\\HotelContext.cs",
+              "ToolTip": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\Data\\HotelContext.cs",
               "RelativeToolTip": "Hotel\\Data\\HotelContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -107,39 +225,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\professor.cetafaju\\source\\repos\\Projeto-Hotel\\Hotel\\Hotel\\appsettings.json",
-              "RelativeDocumentMoniker": "Hotel\\appsettings.json",
-              "ToolTip": "C:\\Users\\professor.cetafaju\\source\\repos\\Projeto-Hotel\\Hotel\\Hotel\\appsettings.json",
-              "RelativeToolTip": "Hotel\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-24T19:22:33.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "Reserva.cs",
-              "DocumentMoniker": "C:\\Users\\professor.cetafaju\\source\\repos\\Projeto-Hotel\\Hotel\\Hotel\\Models\\Reserva.cs",
+              "DocumentMoniker": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\Models\\Reserva.cs",
               "RelativeDocumentMoniker": "Hotel\\Models\\Reserva.cs",
-              "ToolTip": "C:\\Users\\professor.cetafaju\\source\\repos\\Projeto-Hotel\\Hotel\\Hotel\\Models\\Reserva.cs",
+              "ToolTip": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\Models\\Reserva.cs",
               "RelativeToolTip": "Hotel\\Models\\Reserva.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T19:17:45.104Z"
+              "WhenOpened": "2026-04-24T19:17:45.104Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\professor.cetafaju\\source\\repos\\Projeto-Hotel\\Hotel\\Hotel\\Models\\Cliente.cs",
+              "DocumentMoniker": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "Hotel\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\professor.cetafaju\\source\\repos\\Projeto-Hotel\\Hotel\\Hotel\\Models\\Cliente.cs",
+              "ToolTip": "E:\\Andre\\Projeto-Hotel\\Hotel\\Hotel\\Models\\Cliente.cs",
               "RelativeToolTip": "Hotel\\Models\\Cliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T19:15:46.451Z"
+              "WhenOpened": "2026-04-24T19:15:46.451Z",
+              "EditorCaption": ""
             }
           ]
         }
