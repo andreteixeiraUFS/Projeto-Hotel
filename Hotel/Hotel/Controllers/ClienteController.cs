@@ -20,22 +20,25 @@ namespace Hotel.Controllers
         [HttpPost("login")]
         public IActionResult Login(Cliente cliente)
         {
-            var clienteBanco = _context.Clientes.Where
-                (u => u.Email.Equals(cliente.Email) &&
-                u.Senha.Equals(cliente.Senha)).ToList();
-            if (clienteBanco.Count == 0)
-            {
-                return Unauthorized("Email ou senha incorretos!");
-            }
-            HttpContext.Session.SetString("IdLogado", clienteBanco[0].Id.ToString());
-            Response.Cookies.Append("IdLogado", clienteBanco[0].Id.ToString(),
-                 new CookieOptions
-                 {
-                     HttpOnly = true,
-                     Secure = true,
-                     SameSite = SameSiteMode.None
-                 });
-            return Ok("Loging realizado com sucesso");
+            var clienteBanco = _context.Clientes.FirstOrDefault(c => c.Email == cliente.Email);
+
+            if (clienteBanco == null)
+                return NotFound("Email ou senha incorretos");
+
+            if (!BCrypt.Net.BCrypt.Verify(cliente.Senha, clienteBanco.Senha))
+                return NotFound("Email ou senha incorretos");
+
+            HttpContext.Session.SetString("IdLogado", clienteBanco.Id.ToString());
+
+            Response.Cookies.Append("IdLogado", clienteBanco.Id.ToString(),
+                new CookieOptions
+                {
+                    HttpOnly = true,
+                    Secure = true,
+                    SameSite = SameSiteMode.None
+                });
+
+            return Ok("Logado com sucesso");
         }
 
         [HttpGet("logout")]
@@ -50,6 +53,7 @@ namespace Hotel.Controllers
         [HttpPost]
         public IActionResult CadastraCliente(Cliente cliente)
         {
+            cliente.Senha = BCrypt.Net.BCrypt.HashPassword(cliente.Senha);
             _context.Add(cliente);
             _context.SaveChanges();
             return Created("", cliente);
